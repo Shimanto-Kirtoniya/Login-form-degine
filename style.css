@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(84, 204, 196);
+}
+.loginBox{
+    background-color: white;
+    width: 400px;
+    padding: 40px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 170px;
+    border-radius: 10px;
+    box-shadow: -4px 7px 15px 3px gray;
+}
+.loginBox input{
+    width: 100%;
+    display: block;
+    padding: 20px 0px;
+    background-color: #f2f2f2;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+}
+.loginbutton{
+    background:linear-gradient(rgb(112, 225, 225),rgb(195, 124, 243));
+    color: white;
+    border-radius: 20px;
+}
+.loginbutton:hover{
+    background:linear-gradient(rgb(195, 124, 243),rgb(112, 225, 225));
+}
+.registerlink{
+    text-align: center;
+    font-size: 18px;
+}
+.registerlink span{
+    color: #bebebe;
+}
+.registerlink a{
+    color: #35bc53;
+    text-decoration: none;
+}
+.loginBox h2{
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5f5f5f;
+    text-shadow: 1px 2px 4px grey;
+}
